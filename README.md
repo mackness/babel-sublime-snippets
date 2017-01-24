@@ -1,11 +1,11 @@
 # babel-sublime-snippets
 
-Sublime snippets for [React](http://facebook.github.io/react/docs/component-specs.html) in ES5 and [ES6](http://kangax.github.io/compat-table/es6/) flavors.
+Sublime snippets for [React](http://facebook.github.io/react/docs/component-specs.html) and [Redux](http://redux.js.org/)
 
 ## Installation
 
 ```
-cd /Users/<user name>/Library/Application\ Support/Sublime\ Text\ 3/Packages/Babel\ Snippets 
+cd /Users/<user name>/Library/Application\ Support/Sublime\ Text\ 3/Packages/Babel\ Snippets
 
 git clone https://github.com/mackness/babel-sublime-snippets.git react-redux-snippets
 ```
@@ -33,6 +33,7 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 | Trigger  | Content |
 | -------: | ------- |
 | `rcc→`   | class component skeleton |
+| `rcf→`   | functional component skeleton |
 | `rcc→`   | legacy component skeleton |
 | `cdm→`   | `componentDidMount() {…}` |
 | `cdup→`  | `componentDidUpdate(prevProps, prevState) {…}` |
