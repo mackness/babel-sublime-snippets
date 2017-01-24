@@ -35,7 +35,6 @@ To set a key binding, go to "Preferences: Key Bindings - User" from the Command 
 | `rcc→`   | class component skeleton |
 | `rcf→`   | functional component skeleton |
 | `rrc→`   | react redux container |
-| `rcc→`   | legacy component skeleton |
 | `cdm→`   | `componentDidMount() {…}` |
 | `cdup→`  | `componentDidUpdate(prevProps, prevState) {…}` |
 | `cwm→`   | `componentWillMount() {…}` |
