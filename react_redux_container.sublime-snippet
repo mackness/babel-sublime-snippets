@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+import React, { Component } from 'react';
+import {connect} from 'react-redux';
+import Component from '../components/Component';
+import {action} from '../actions/';
+
+const mapStateToProps = (
+  state,
+  ownProps
+) => {
+  return {
+    prop: ownProps.prop,
+  }
+}
+
+const mapDispatchToProps = (
+  dispatch,
+  ownProps
+) => {
+  return {
+    onNextClick: ()=> {
+      dispatch(action(ownProps.prop))
+    },
+  }
+}
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Component)
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}
+]]></content>
+    <tabTrigger>rrc</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>Redux: container component</description>
+</snippet>
