@@ -1,4 +1,4 @@
-# babel-sublime-snippets
+# react-redux-sublime-snippets
 
 Sublime snippets for [React](http://facebook.github.io/react/docs/component-specs.html) and [Redux](http://redux.js.org/)
 
