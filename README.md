@@ -5,7 +5,7 @@ Sublime snippets for [React](http://facebook.github.io/react/docs/component-spec
 ## Installation
 
 ```
-cd /Users/<user name>/Library/Application\ Support/Sublime\ Text\ 3/Packages/Babel\ Snippets
+cd /Users/<username>/Library/Application\ Support/Sublime\ Text\ 3/Packages/ 
 
 git clone https://github.com/mackness/babel-sublime-snippets.git react-redux-snippets
 ```
