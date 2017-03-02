@@ -3,9 +3,8 @@
 Sublime snippets for [React](http://facebook.github.io/react/docs/component-specs.html) and [Redux](http://redux.js.org/)
 
 ## Installation
-
 ```
-cd /Users/<username>/Library/Application\ Support/Sublime\ Text\ 3/Packages/ 
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 
 git clone https://github.com/mackness/babel-sublime-snippets.git react-redux-snippets
 ```
